@@ -4,7 +4,7 @@
 }
 
 body {
-    margin: 0px;
+    margin: none;
 }
 
 nav {
@@ -12,11 +12,24 @@ nav {
     overflow: hidden;
 }
 
-nav left {
-    float: left;
-    color:black;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    width: 10px;
+nav .responsive {
+  height:35px;
 }
+
+nav {
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    width:100%;
+}
+
+nav right {
+    float: right;
+    color:black;
+    padding: 0px 0px 0px 20px;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
