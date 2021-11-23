@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-family:Arial, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+nav {
+    background-color: white;
+    overflow: hidden;
+}
+
+nav left {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    width: 10px;
+}
