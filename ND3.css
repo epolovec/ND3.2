@@ -68,3 +68,53 @@ header .button {
   font-weight: normal;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px 10px 0px;
+    background-color: #a8a8a8;
+}
+
+main div .responsive{
+  width: 100%;
+}
+
+main div {
+  flex: 30%;
+  padding: 30px;
+  margin: 5px;
+  max-width: 410px;
+  background-color:white;
+  box-shadow: -2px -2px 4px #747474;
+}
+
+main div h2 {
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: normal;
+  color: black;
+}
+
+main div p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff4545;
+}
+
+main .button {
+  background-color: #ffffff;
+  color: #070505;
+  padding: 13px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: auto;
+  border: 3px solid #bcbcbc;
+  cursor: pointer;
+  font-weight: normal;
+}
