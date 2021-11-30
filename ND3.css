@@ -98,12 +98,14 @@ main div h2 {
   font-size: 18px;
   font-weight: normal;
   color: black;
+  margin-left: 0px;
 }
 
 main div p {
     font-weight: bold;
     font-size: 25px;
     color: #4d73ee;
+    margin-left: 5px;
 }
 
 main .button {
