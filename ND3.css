@@ -4,22 +4,21 @@
 }
 
 body {
-    margin: 0;
+    margin: 0p;
 }
 
 nav {
     background-color: white;
     overflow: hidden;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    width:100%;
+    margin: 10px;
+    margin-right: 20px;
 }
 
 nav .responsive {
   height:35px;
-}
-
-nav {
-    padding: 0px 20px 0px 20px;
-    text-decoration: none;
-    width:100%;
 }
 
 nav right {
@@ -31,17 +30,18 @@ nav right {
 header {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 header div .responsive{
   width: 100%;
-  flex: 25%;
-  margin: 40px;
 }
 
 header div {
-
-  flex: 25%;
+  flex: 30%;
   margin: 40px;
+  max-width: 350px;
 }
 
