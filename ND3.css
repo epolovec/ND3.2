@@ -4,17 +4,16 @@
 }
 
 body {
-    margin: 0p;
+    margin: 0px;
 }
 
 nav {
     background-color: white;
     overflow: hidden;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 60px 0px 20px;
     text-decoration: none;
     width:100%;
     margin: 10px;
-    margin-right: 20px;
 }
 
 nav .responsive {
@@ -24,7 +23,7 @@ nav .responsive {
 nav right {
     float: right;
     color:black;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 20px 0px 0px;
     text-decoration: none;
 }
 header {
@@ -96,15 +95,15 @@ main div h2 {
 }
 
 .text {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: normal;
   color: black;
 }
 
 main div p {
     font-weight: bold;
-    font-size: 18px;
-    color: #ff4545;
+    font-size: 25px;
+    color: #4d73ee;
 }
 
 main .button {
