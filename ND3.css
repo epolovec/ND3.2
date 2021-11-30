@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;
-    font-family:Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    margin: none;
+    margin: 0;
 }
 
 nav {
@@ -31,5 +31,17 @@ nav right {
 header {
     display: flex;
     flex-wrap: wrap;
+}
+
+header div .responsive{
+  width: 100%;
+  flex: 25%;
+  margin: 40px;
+}
+
+header div {
+
+  flex: 25%;
+  margin: 40px;
 }
 
